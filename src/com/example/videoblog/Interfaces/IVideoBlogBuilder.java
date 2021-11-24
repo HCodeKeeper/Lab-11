@@ -1,4 +1,4 @@
-package Interfaces;
+package com.example.videoblog.Interfaces;
 
 import java.util.TreeSet;
 

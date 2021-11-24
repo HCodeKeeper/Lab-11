@@ -1,4 +1,10 @@
+package com.example.videoblog;
+
 import Interfaces.*;
+import com.example.videoblog.Interfaces.IComment;
+import com.example.videoblog.Interfaces.IVideo;
+import com.example.videoblog.Interfaces.IVideoBlogBuilder;
+
 import java.util.Iterator;
 import java.util.TreeSet;
 

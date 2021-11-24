@@ -1,9 +1,8 @@
-import Interfaces.IComment;
-import Interfaces.IVideo;
+package com.example.videoblog;
 
-import java.util.Objects;
+import com.example.videoblog.Interfaces.IComment;
 
-public class Comment implements IComment, Comparable<IComment> {
+public class Comment implements IComment, Comparable<Comment> {
     String text;
     int likes;
     int dislikes;
@@ -27,7 +26,7 @@ public class Comment implements IComment, Comparable<IComment> {
     }
 
     @Override
-    public int compareTo(IComment anotherComment){
+    public int compareTo(Comment anotherComment){
         if(this.likes < anotherComment.getLikes()){
             return -1;
         }

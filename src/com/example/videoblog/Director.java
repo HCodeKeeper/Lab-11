@@ -1,6 +1,8 @@
-import Interfaces.IComment;
-import Interfaces.IVideo;
-import Interfaces.IVideoBlogBuilder;
+package com.example.videoblog;
+
+import com.example.videoblog.Interfaces.IComment;
+import com.example.videoblog.Interfaces.IVideo;
+import com.example.videoblog.Interfaces.IVideoBlogBuilder;
 
 import java.util.TreeSet;
 
